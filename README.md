@@ -16,3 +16,6 @@ An AI-powered career advisory web app built with Python, Groq API, and Streamlit
 1. Install dependencies: `pip install streamlit groq`
 2. Add your Groq API key in `career_advisor.py`
 3. Run: `python -m streamlit run career_advisor.py`
+
+## Live Demo
+Try the app here: https://bhavanankumar25-career-advisor-career-advisor-ggwsba.streamlit.app/
