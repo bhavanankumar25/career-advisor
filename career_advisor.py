@@ -1,7 +1,7 @@
 import streamlit as st
 from groq import Groq
 
-client = Groq(api_key="YOUR_API_KEY_HERE")
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 st.title("🎯 Smart Career Advisor")
 st.write("Enter your skills and get AI-powered career guidance!")
